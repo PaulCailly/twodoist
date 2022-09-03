@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-twodoist-dev-01214-authRole",
+      "UnauthRoleArn": "arn:aws:iam::364001267114:role/amplify-twodoist-dev-01214-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::364001267114:role/amplify-twodoist-dev-01214-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-twodoist-dev-01214-deployment",
+      "UnauthRoleName": "amplify-twodoist-dev-01214-unauthRole",
+      "StackName": "amplify-twodoist-dev-01214",
+      "StackId": "arn:aws:cloudformation:eu-west-3:364001267114:stack/amplify-twodoist-dev-01214/4d06b300-2b0c-11ed-bb58-0e1fa39bb554",
+      "AmplifyAppId": "d196gevewejbz3"
+    }
+  }
+}
