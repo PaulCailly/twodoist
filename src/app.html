@@ -16,7 +16,11 @@
 </html>
 
 <script>
-	if (global === undefined) {
+	const isBrowser = () => typeof window !== 'undefined';
+	const isGlobal = () => typeof global !== 'undefined';
+
+	var exports = {};
+	if (!isGlobal() && isBrowser()) {
 		var global = window;
 	}
 </script>

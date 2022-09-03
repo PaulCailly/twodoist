@@ -1,12 +1,16 @@
 <script lang="ts">
-	import LoginForm from '$lib/forms/LoginForm.svelte';
+	import CallToAction from '$lib/landing/CallToAction.svelte';
+	import Features from '$lib/landing/Features.svelte';
+	import Footer from '$lib/landing/Footer.svelte';
+	import Hero from '$lib/landing/Hero.svelte';
 </script>
 
 <svelte:head>
-	<title>Login</title>
-	<meta name="description" content="twodo.ist" />
+	<title>Sign in</title>
+	<meta name="description" content="Sign in to your account" />
 </svelte:head>
 
-<section>
-	<LoginForm />
-</section>
+<Hero />
+<Features />
+<CallToAction />
+<Footer />
